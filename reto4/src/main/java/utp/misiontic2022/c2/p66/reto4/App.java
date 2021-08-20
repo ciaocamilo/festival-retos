@@ -1,6 +1,7 @@
 package utp.misiontic2022.c2.p66.reto4;
 
 import utp.misiontic2022.c2.p66.reto4.vista.MenuCombo;
+import utp.misiontic2022.c2.p66.reto4.vista.MenuRadio;
 import utp.misiontic2022.c2.p66.reto4.vista.VistaRequerimientos;
 
 /**
@@ -23,5 +24,8 @@ public class App
 */
         MenuCombo vm = new MenuCombo();
         vm.setVisible(true);
+        
+        MenuRadio vmr = new MenuRadio();
+        vmr.setVisible(true);
     }
 }
